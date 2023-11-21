@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-@include('layout.header');
+@include('layout.header')
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1>Welcome to the Site</h1>
-<div>{{$name}}</div>
-<a href='about.html'>Home</a>
+
 </body>
 </html>
+@include('layout.footer')

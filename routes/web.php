@@ -18,11 +18,25 @@ Route::get('/',[
     HomeController::class, 'index'
 ]);
 
-Route::get('/about', function ()  {
-return view('about');
+Route::get('/app', function ()  {
+return view('layout.app');
 });
 
-Route::get('/', function ()  {
-    return view('layout.app');
+Route::get('/about', function ()  {
+    return view('about');
     });
+
+    Route::get('/achievements', function ()  {
+        return view('achievements');
+        });
+
+        Route::get('/contact', function ()  {
+            return view('contact');
+            });
+
+            Route::get('/history', function ()  {
+                return view('history');
+                });
+
+
 

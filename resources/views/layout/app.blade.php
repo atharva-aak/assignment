@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-@include('layout.header');
+@include('layout.header')
 
 <html lang="en">
 <head>
@@ -12,45 +12,70 @@
             padding: 0;
         }
         .biography {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      max-width: 1450px;
+      margin: 30px auto;
+      padding: 26px;
       background-color: #fff;
-      box-shadow: 0 0 10px rgba(24, 21, 21, 0.992);
+      box-shadow: 0 0 8px rgba(10, 10, 10, 0.992);
       text-align: justify;
       line-height: 1.5;
     }
     .img_deg
     {
-      float: left;
+      float: inherit;
+      object-position: 1cm;
       width: 337px;
-      height: 4in;
-      margin-top: 42px;
+      height: 3in;
+      margin-top:100px;
     }
     .img_right{
         float: right;
+        object-position: -1cm;
         width: 337px;
-        height: 4in;
-        margin-top: 42px;
+        height: 3in;
+        margin-top: 100px;
     }
+    .img_centerlogo{
+        float:inherit;
+        object-position: 0.1cm;
+        width: 100px;
+        height: 0.9in;
+        margin-top: 20px;
+        margin-bottom: 98px;
+        margin-left: 20px;
+
+
+    }
+    h2 {text-align: center;}
+    h3 {text-align: center;}
+
     </style>
 
     <title>Bill Gates</title>
 </head>
 <body>
 
+
+
     <section id="content">
 
-      <img class="img_deg" src="https://media.gettyimages.com/id/1678294687/photo/washington-dc-bill-gates-co-chair-of-the-bill-melinda-gates-foundation-arrives-for-the-ai.jpg?s=612x612&w=0&k=20&c=qM_TB33XE6EAbTYv72MaHtl1OlmerW9p30E4WJTI6p8=">
-      <img class="img_right" src="https://media.gettyimages.com/id/1692521154/photo/new-york-new-york-bill-gates-attends-goalkeepers-2023-daytime-event-at-jazz-at-lincoln-center.jpg?s=612x612&w=0&k=20&c=Y2XlSNFOKYx8sGX-FidHqfMRULIJumwNFbnv2ituY8Y=">
+      <img class="img_deg" src="https://cdn.britannica.com/71/103171-050-BD1B685A/Bill-Gates-Microsoft-Corporation-operating-system-press-2001.jpg">
+      <img class="img_deg" src="https://media.gettyimages.com/id/1692521154/photo/new-york-new-york-bill-gates-attends-goalkeepers-2023-daytime-event-at-jazz-at-lincoln-center.jpg?s=612x612&w=0&k=20&c=Y2XlSNFOKYx8sGX-FidHqfMRULIJumwNFbnv2ituY8Y=">
+      <img class="img_right" src="https://media.gettyimages.com/id/1678294687/photo/washington-dc-bill-gates-co-chair-of-the-bill-melinda-gates-foundation-arrives-for-the-ai.jpg?s=612x612&w=0&k=20&c=qM_TB33XE6EAbTYv72MaHtl1OlmerW9p30E4WJTI6p8=">
+      <img class="img_right" src="https://media.gettyimages.com/id/1719101440/photo/brussels-belgium-co-founding-of-bill-melinda-gates-foundation-bill-gates-attends-a-ceremony.jpg?s=612x612&w=0&k=20&c=kQF8C0ejnQ39r-SAk9kJG_XxWl_E9YVsr4wDxayl44o=">
+      <img class="img_centerlogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png">
       <div class="biography">
             <br>
+
+            <hr>
            <i><p><h3>"This website is dedicated to the life and achievements of Bill Gates, one of the greatest minds in the history of computers."</h3></p></i>
+           <hr>
             <h2>Bill Gates</h2>
 
 
             <p>
-              Bill Gates is a business magnate, software developer, philanthropist, and author. He co-founded Microsoft Corporation in 1975,
+              Bill Gate is a business magnate, software developer, philanthropist, and author. He co-founded Microsoft Corporation in 1975,
               which became the world's largest personal-computer software company. Gates led the company as chairman and CEO until he stepped
               down as CEO in 2000, but he remained actively involved in its management.
             </p>
@@ -92,4 +117,4 @@
 </body>
 
 </html>
-@include('layout.footer');
+@include('layout.footer')

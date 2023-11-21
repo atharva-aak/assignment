@@ -5,6 +5,6 @@
 @extends('layout.app')
 @section('appContents')
 <div>
-    Home
+    <h1>>hi</h1>
 </div>
 @stop
