@@ -8,63 +8,69 @@
     <title>History</title>
 </head>
 <style>
+    body {
+        font-family:'Times New Roman', Times, serif;
+        max-width: 800px;
+        margin: 45px auto;
+        line-height: 1.6;
+        background-color: #f7f7f7;
+    }
 
-    section {
-        max-width: 600px;
-        margin: 50px auto;
-        background-color: white;
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+
+    .contact-info {
+        background-color: #fff;
         padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
     }
 
-    label {
-        display: block;
-        margin-bottom: 8px;
+    .contact-method {
+        text-align: center;
+        margin-top: 20px;
     }
 
-    input,
-    textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 16px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-    }
-
-    button {
-        background-color: #333;
-        color: white;
+    .contact-method a {
+        display: inline-block;
         padding: 10px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
+        text-decoration: none;
+        color: #fff;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
     }
 
-    button:hover {
-        background-color: #555;
+    .contact-method a:hover {
+        background-color: #000000;
     }
 </style>
+</head>
+
 <body>
-    <br>
-    <br>
-    <br>
-    <br>
-    <section>
-        <form action="#" method="post">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
 
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required>
+<h1>Contact Bill Gates</h1>
 
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+<div class="contact-info">
+    <h2>Contact Information</h2>
+    <p>
+        If you have any inquiries or would like to get in touch with Bill Gates, you can reach out through the following methods:
+    </p>
 
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+    <div class="contact-method">
+        <a href="tel:+1234567890">Call Bill Gates</a>
+    </div>
+
+    <div class="contact-method">
+        <a href="mailto:contact@billgates.com">Email Bill Gates</a>
+    </div>
+</div>
+
 </body>
-@include('layout.footer')
+
 </html>
+@include('layout.footer')

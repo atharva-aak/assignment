@@ -65,7 +65,7 @@ nav ul li a:hover {
 
     }
     .wrapper {
-  height: 100vh;
+  height: 100%;
   display:inherit;
   place-items:inherit;
 }

@@ -8,15 +8,28 @@
     <title>History</title>
 </head>
 <style>
+
+    body{
+        background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230703/pngtree-minimalist-space-3d-render-vibrant-purple-waves-on-blue-purple-gradient-image_3742526.jpg");
+        height:300%;
+        background-position:
+        background-repeat: no-repeat;
+        background-size: 1600px;
+    }
     section {
             max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
+            margin: 100px auto;
+            padding: 75px;
             background-color: #fff;
-            border-radius: 8px;
+            border-radius: 25px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: justify;
             line-height: 1.5;
+            background: linear-gradient( rgb(244, 85, 255), rgb(76, 223, 239));
+            font-size: 110%;
+        }
+        h2{
+            text-align: center;
         }
         </style>
 
