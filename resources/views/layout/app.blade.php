@@ -17,7 +17,7 @@
       margin: 30px auto;
       padding: 26px;
       background-color: #fff;
-      box-shadow: 0 0 8px rgba(10, 10, 10, 0.992);
+      box-shadow: 0 0 7px rgba(10, 10, 10, 0.992);
       text-align: justify;
       line-height: 1.5;
     }

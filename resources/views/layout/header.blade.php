@@ -109,7 +109,7 @@ nav ul li a:hover {
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/about" target="_blank">About</a></li>
+                <li><a href="/about">About</a></li>
                 <li><a href="/history">History</a></li>
                 <li><a href="/achievements">Achievements</a></li>
                 <li><a href="/contact">Contact</a></li>
