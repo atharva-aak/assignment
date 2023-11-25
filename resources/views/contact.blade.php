@@ -62,11 +62,11 @@
     </p>
 
     <div class="contact-method">
-        <a href="tel:+1234567890">Call Bill Gates</a>
+        <a href="tel:+1234567890">Call Bill Gates: Tel:+1234567890 </a>
     </div>
 
     <div class="contact-method">
-        <a href="mailto:contact@billgates.com">Email Bill Gates</a>
+        <a href="mailto:contact@billgates.com">Email Bill Gates: mailto:contact@billgates.com</a>
     </div>
 </div>
 

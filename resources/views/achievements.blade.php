@@ -27,8 +27,7 @@
         border-radius: 50px;
         line-height: 1.5;
         text-align:justify;
-        background: linear-gradient( rgb(86, 125, 255), rgb(53, 188, 255));
-
+        background: linear-gradient( rgb(173, 195, 255), rgb(53, 188, 255));
     }
 
     h2 {
